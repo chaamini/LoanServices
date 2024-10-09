@@ -26,7 +26,7 @@ service /api/address on new http:Listener(9096) {
             customerId: payload.customerId,
             validationStatus: "Verified",
             geolocation: {
-                latitude: 51.5014,
+                latitude: 61,
                 longitude: -0.1419
             }
         };
